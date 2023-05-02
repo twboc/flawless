@@ -1,0 +1,88 @@
+[global_config]
+  hide_from_taskbar = True
+  suppress_multiple_term_dialog = True
+[keybindings]
+  zoom_in = <Primary>equal
+  zoom_out = <Primary>minus
+  zoom_normal = <Primary>BackSpace
+  zoom_in_all = <Primary>plus
+  zoom_out_all = <Primary>underscore
+  zoom_normal_all = <Primary><Shift>BackSpace
+  new_tab = <Primary>t
+  go_next = <Primary>apostrophe
+  go_prev = <Primary>h
+  go_up = <Primary>l
+  go_down = <Primary>k
+  go_left = <Primary>j
+  go_right = <Primary>semicolon
+  rotate_cw = <Primary>quotedbl
+  rotate_ccw = <Primary><Shift>h
+  paste_selection = <Primary><Shift>b
+  page_up = <Primary><Shift>F11
+  page_down = <Primary><Shift>F12
+  page_up_half = <Primary><Shift>F10
+  page_down_half = <Primary><Shift>F9
+  line_up = Up
+  line_down = Down
+  resize_up = <Primary><Shift>l
+  resize_down = <Primary><Shift>k
+  resize_left = <Primary><Shift>j
+  resize_right = <Primary>colon
+  move_tab_right = <Primary>greater
+  move_tab_left = <Primary>less
+  next_tab = <Primary><Shift>m
+  prev_tab = <Primary><Shift>n
+  switch_to_tab_1 = <Primary>1
+  switch_to_tab_2 = <Primary>2
+  switch_to_tab_3 = <Primary>3
+  switch_to_tab_4 = <Primary>4
+  switch_to_tab_5 = <Primary>5
+  switch_to_tab_6 = <Primary>6
+  switch_to_tab_7 = <Primary>7
+  switch_to_tab_8 = <Primary>8
+  switch_to_tab_9 = <Primary>9
+  switch_to_tab_10 = <Primary>0
+  reset = <Primary>r
+  reset_clear = <Primary><Shift>r
+  hide_window = <Primary>q
+  create_group = <Primary>g
+  group_all = <Primary>at
+  group_all_toggle = <Primary><Shift>g
+  ungroup_all = <Primary><Shift>F2
+  group_win = <Primary>dollar
+  group_win_toggle = <Primary><Shift>d
+  ungroup_win = <Primary><Shift>F4
+  group_tab = <Primary>numbersign
+  group_tab_toggle = <Primary><Shift>t
+  ungroup_tab = <Primary><Shift>F3
+  broadcast_off = <Primary>bar
+  broadcast_group = <Primary>braceright
+  broadcast_all = <Primary>braceleft
+  insert_number = <Primary>percent
+  insert_padded = <Primary>asciicircum
+  edit_window_title = <Primary>exclam
+  edit_tab_title = <Primary>n
+  edit_terminal_title = <Primary>b
+  layout_launcher = <Primary>ampersand
+  next_profile = <Primary><Shift>F6
+  previous_profile = <Primary><Shift>F5
+  preferences = <Primary>p
+  preferences_keybindings = <Primary><Shift>p
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_darkness = 0.8
+    background_type = transparent
+    scrollbar_position = hidden
+    palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#f7d459:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    title_hide_sizetext = True
+    title_transmit_bg_color = "#f99191"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
